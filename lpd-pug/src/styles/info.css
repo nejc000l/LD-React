@@ -1,0 +1,145 @@
+.float-container {
+    padding-right: 5rem;
+    padding-left:5rem;
+    height:100vh
+
+}
+
+.float-child {
+    
+    width: 50%;
+    float: left;
+    padding: 20px;
+
+    height:100vh;
+    color:white;
+} 
+.container-right{
+    border:1px solid red;
+}
+.container-left{
+    border:1px solid red;
+}
+.right {
+   /* background: rgba(2, 2, 2, 0.452);*/
+    background:"";
+    border-radius: 10px;
+    width:50%;
+}
+.title{
+    margin-top:10px;
+    width: 100%;
+    float: left;
+    padding: 20px;
+    height:auto;
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.title-text{
+    font-family: 'Zilla Slab', serif;
+
+}
+.info{
+    margin-top:10px;
+    width: 100%;
+    float: left;
+    padding: 20px;
+    
+    height:auto;
+    color:white;
+}
+.logo-box{
+    margin-top:5px;
+    width: 100%;
+    display:block;
+    float: left;
+    padding: 10px;
+    
+    height:auto;
+    color:white;
+    display: block;
+}
+   
+.info-box{
+    margin-top:10px;
+    width: 100%;
+    display:block;
+    float: left;
+    padding: 20px;
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.nav-bar{
+    align-items: center;
+    width: 100%;
+    float:left;
+    display:flex;
+    
+    height:30vh;
+    color:#fff;
+}
+ul,li,a {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.links,
+.links:visited,
+.links:active{
+    display: list-item;
+    color:rgba(9, 119, 55, 0.979);
+    left:0;
+    font-weight: 1000;
+    font-size:30px;
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Zilla Slab', serif;
+    justify-content: center;
+
+
+}
+h3{
+    padding:5px;
+    position:relative;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+span{
+    font-size:15px;
+    padding:5px;
+    font-family: Roboto;
+    font-style: italic;
+
+}
+a:visited{
+    text-decoration: none;
+     color: rgb(255, 255, 255);
+     padding:5px;
+
+}
+.info-text{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+
+}
+.email{
+    font-size:15px;
+    font-family: Roboto;
+    font-style: italic;
+    /*border:2px solid red;*/
+    margin-top:20px;
+
+}
+.email-icon{
+    
+    font-size:20px;
+    justify-content: space-between;
+}
